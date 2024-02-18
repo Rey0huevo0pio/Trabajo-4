@@ -1,0 +1,36 @@
+body{
+    background: antiquewhite;
+    display: flex;
+    margin: 5px ;
+    padding: 4px ;
+}
+.contenedor{
+    background: rgb(238, 139, 9);
+    
+    display: flex;
+    width: 500px;
+    border-radius: 4px;
+    height: 800px;
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.logo{
+    text-align: center;
+    width: auto;
+    height: 27vh;
+    border-radius: 4px;
+    background-color: violet;
+    justify-content: space-between;
+    
+}
+
+
+.contenedor img{
+    margin: 3px;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 25vh;
+}
